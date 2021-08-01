@@ -1,0 +1,274 @@
+package org.apache.jsp;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.jsp.*;
+
+public final class File_jsp extends org.apache.jasper.runtime.HttpJspBase
+    implements org.apache.jasper.runtime.JspSourceDependent {
+
+  private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
+
+  private static java.util.List<String> _jspx_dependants;
+
+  private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
+
+  public java.util.List<String> getDependants() {
+    return _jspx_dependants;
+  }
+
+  public void _jspService(HttpServletRequest request, HttpServletResponse response)
+        throws java.io.IOException, ServletException {
+
+    PageContext pageContext = null;
+    HttpSession session = null;
+    ServletContext application = null;
+    ServletConfig config = null;
+    JspWriter out = null;
+    Object page = this;
+    JspWriter _jspx_out = null;
+    PageContext _jspx_page_context = null;
+
+    try {
+      response.setContentType("text/html;charset=UTF-8");
+      pageContext = _jspxFactory.getPageContext(this, request, response,
+      			null, true, 8192, true);
+      _jspx_page_context = pageContext;
+      application = pageContext.getServletContext();
+      config = pageContext.getServletConfig();
+      session = pageContext.getSession();
+      out = pageContext.getOut();
+      _jspx_out = out;
+      _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
+
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("<!DOCTYPE html>\n");
+      out.write("<html lang=\"en\">\n");
+      out.write("\n");
+      out.write("<head>\n");
+      out.write("  <meta charset=\"UTF-8\">\n");
+      out.write("  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n");
+      out.write("  <link rel=\"stylesheet\" href=\"style.css\">\n");
+      out.write("  <link rel=\"stylesheet\" href=\"styleacc.css\">\n");
+      out.write("  <title>Sky Publishers</title>\n");
+      out.write("</head>\n");
+      out.write("\n");
+      out.write("<body>\n");
+      out.write("  <!-- Header -->\n");
+      out.write("  <section id=\"header\">\n");
+      out.write("    <div class=\"header container\">\n");
+      out.write("      <div class=\"nav-bar\">\n");
+      out.write("        <div class=\"brand\">\n");
+      out.write("          <a href=\"#hero\">\n");
+      out.write("            <h1><span>S</span>ky <span>P</span>ublishers</h1>\n");
+      out.write("          </a>\n");
+      out.write("        </div>\n");
+      out.write("        <div class=\"nav-list\">\n");
+      out.write("          <div class=\"hamburger\">\n");
+      out.write("            <div class=\"bar\"></div>\n");
+      out.write("          </div>\n");
+      out.write("          <ul>\n");
+      out.write("            <li><a href=\"indexx.jsp\" data-after=\"Home\">Accueil</a></li>\n");
+      out.write("            <li><a href=\"#services\" data-after=\"Service\">Services</a></li>\n");
+      out.write("            <li><a href=\"LoginAdmi.jsp\" data-after=\"Projects\">Administrateur</a></li>\n");
+      out.write("            <li><a href=\"catalogue.jsp\" data-after=\"About\">Catalogue</a></li>\n");
+      out.write("            <li><a href=\"#contact\" data-after=\"Contact\">Contact</a></li>\n");
+      out.write("          </ul>\n");
+      out.write("        </div>\n");
+      out.write("      </div>\n");
+      out.write("    </div>\n");
+      out.write("  </section>\n");
+      out.write("  <!-- End Header -->\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("  <!-- Hero Section  -->\n");
+      out.write("  <section id=\"hero\">\n");
+      out.write("\n");
+      out.write("    <div id=\"all-slider\">\n");
+      out.write("        <ul id=\"slider\">\n");
+      out.write("          <li class=\"slide\"> <img src=\"2.jpg\" alt=\"image slider 1\"> </li>\n");
+      out.write("          <li class=\"slide\"> <img src=\"6.jpg\" alt=\"image slider 2\"> </li>\n");
+      out.write("          <li class=\"slide\"> <img src=\"10.jpg\" alt=\"image slider 3\"> </li>\n");
+      out.write("          <li class=\"slide\"> <img src=\"7.jpg\" alt=\"image slider 4\"> </li>\n");
+      out.write("          <li class=\"slide\"> <img src=\"8.jpg\" alt=\"image slider 5\"> </li>\n");
+      out.write("        </ul>\n");
+      out.write("    </div>\n");
+      out.write("\n");
+      out.write("    <div class=\"hero container\">\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("      <div id=\"titre\">\n");
+      out.write("        <h1>Sky <span></span></h1>\n");
+      out.write("        <h1> <span></span></h1>\n");
+      out.write("        <h1>Publishers<span></span></h1>\n");
+      out.write("        \n");
+      out.write("      </div>\n");
+      out.write("    </div>\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("  </section>\n");
+      out.write("\n");
+      out.write("  <!-- End Hero Section  -->\n");
+      out.write("  \n");
+      out.write("  <section id=\"services\" style=\"margin-top: -500px;\">\n");
+      out.write("      \n");
+      out.write("      <div style=\"width: 50%; margin: 0 auto;\">\n");
+      out.write("          \n");
+      out.write("          <center>\n");
+      out.write("        <h1 style=\"font-size: 30px; color: #485563; margin-bottom: 30px;\">Calculons les couts de dépense pour les livres</h1>\n");
+      out.write("        \n");
+      out.write("        <form action=\"NewServlet\" method=\"post\" style=\"margin-bottom: 100px;\">\n");
+      out.write("            <table>\n");
+      out.write("                <tr>\n");
+      out.write("                    <td><label style=\"font-size: 19px; color: black\">Nombres de page:</label></td>\n");
+      out.write("                    <td><input type=\"number\" name=\"n1\" /></td>\n");
+      out.write("                    \n");
+      out.write("                </tr>\n");
+      out.write("                \n");
+      out.write("                <tr>\n");
+      out.write("                    <td><label style=\"font-size: 19px; color: black\">Quantité:</label></td>\n");
+      out.write("                    <td><input type=\"number\" name=\"n2\" /></td>\n");
+      out.write("                </tr\n");
+      out.write("                \n");
+      out.write("                <tr>\n");
+      out.write("                    <td><label style=\"font-size: 19px; color: black\">Prix par page:</label></td>\n");
+      out.write("                    <td><input type=\"number\" name=\"n3\" value=\"25\" /></td>\n");
+      out.write("                </tr>\n");
+      out.write("                \n");
+      out.write("            </table>\n");
+      out.write("            \n");
+      out.write("            <button type=\"submit\" class=\"cta\" style=\"color: black;\">CALCULER</button>\n");
+      out.write("        </form>\n");
+      out.write("        \n");
+      out.write("        \n");
+      out.write("        <h1 style=\"font-size: 30px; color: #485563; margin-bottom: 30px;\">Calculons les couts de dépense pour les magazines</h1>\n");
+      out.write("        \n");
+      out.write("        <form action=\"NewServlet2\" method=\"post\" style=\"margin-bottom: 100px;\">\n");
+      out.write("            <table>\n");
+      out.write("                <tr>\n");
+      out.write("                    <td><label style=\"font-size: 19px; color: black\">Nombres de page:</label></td>\n");
+      out.write("                    <td><input type=\"number\" name=\"n4\" /></td>\n");
+      out.write("                    \n");
+      out.write("                </tr>\n");
+      out.write("                \n");
+      out.write("                <tr>\n");
+      out.write("                    <td><label style=\"font-size: 19px; color: black\">Quantité:</label></td>\n");
+      out.write("                    <td><input type=\"number\" name=\"n5\" /></td>\n");
+      out.write("                </tr\n");
+      out.write("                \n");
+      out.write("                <tr>\n");
+      out.write("                    <td><label style=\"font-size: 19px; color: black\">Prix par page:</label></td>\n");
+      out.write("                    <td><input type=\"number\" name=\"n6\" value=\"50\" /></td>\n");
+      out.write("                </tr>\n");
+      out.write("                \n");
+      out.write("             </table>\n");
+      out.write("            \n");
+      out.write("            <button type=\"submit\" class=\"cta\" style=\"color: black;\">CALCULER</button>\n");
+      out.write("        </form>  \n");
+      out.write("            \n");
+      out.write("            <h1 style=\"font-size: 30px; color: #485563; margin-bottom: 30px;\">Calculons les couts de dépense pour les journaux</h1>\n");
+      out.write("        \n");
+      out.write("        <form action=\"NewServlet2\" method=\"post\" style=\"margin-bottom: 100px;\">\n");
+      out.write("            <table>\n");
+      out.write("                <tr>\n");
+      out.write("                    <td><label style=\"font-size: 19px; color: black\">Nombres de page:</label></td>\n");
+      out.write("                    <td><input type=\"number\" name=\"n7\" /></td>\n");
+      out.write("                    \n");
+      out.write("                </tr>\n");
+      out.write("                \n");
+      out.write("                <tr>\n");
+      out.write("                    <td><label style=\"font-size: 19px; color: black\">Quantité:</label></td>\n");
+      out.write("                    <td><input type=\"number\" name=\"n8\" /></td>\n");
+      out.write("                </tr\n");
+      out.write("                \n");
+      out.write("                <tr>\n");
+      out.write("                    <td><label style=\"font-size: 19px; color: black\">Prix par page:</label></td>\n");
+      out.write("                    <td><input type=\"number\" name=\"n9\" value=\"20\" /></td>\n");
+      out.write("                </tr>\n");
+      out.write("                \n");
+      out.write("            </table>\n");
+      out.write("            \n");
+      out.write("            <button type=\"submit\" class=\"cta\" style=\"color: black;\">CALCULER</button>\n");
+      out.write("        </form>\n");
+      out.write("            </center>\n");
+      out.write("            </div>\n");
+      out.write("    </section>\n");
+      out.write("            \n");
+      out.write("            <!-- Contact Section -->\n");
+      out.write("  <section id=\"contact\">\n");
+      out.write("    <div class=\"contact container\">\n");
+      out.write("      <div>\n");
+      out.write("        <h1 class=\"section-title\">Contact <span>info</span></h1>\n");
+      out.write("      </div>\n");
+      out.write("      <div class=\"contact-items\">\n");
+      out.write("        <div class=\"contact-item\">\n");
+      out.write("          <div class=\"icon\"><img src=\"https://img.icons8.com/bubbles/100/000000/phone.png\" /></div>\n");
+      out.write("          <div class=\"contact-info\">\n");
+      out.write("            <h1>Telephone</h1>\n");
+      out.write("            <h2>+2 888 144 333</h2>\n");
+      out.write("            <h2>+2 587 632 1555</h2>\n");
+      out.write("          </div>\n");
+      out.write("        </div>\n");
+      out.write("        <div class=\"contact-item\">\n");
+      out.write("          <div class=\"icon\"><img src=\"https://img.icons8.com/bubbles/100/000000/new-post.png\" /></div>\n");
+      out.write("          <div class=\"contact-info\">\n");
+      out.write("            <h1>Email</h1>\n");
+      out.write("            <h2>publishers@gmail.com</h2>\n");
+      out.write("            <h2>sky@gmail.com</h2>\n");
+      out.write("          </div>\n");
+      out.write("        </div>\n");
+      out.write("        <div class=\"contact-item\">\n");
+      out.write("          <div class=\"icon\"><img src=\"https://img.icons8.com/bubbles/100/000000/map-marker.png\" /></div>\n");
+      out.write("          <div class=\"contact-info\">\n");
+      out.write("            <h1>Adresse</h1>\n");
+      out.write("            <h2>New York, landy, Graysh</h2>\n");
+      out.write("          </div>\n");
+      out.write("        </div>\n");
+      out.write("      </div>\n");
+      out.write("    </div>\n");
+      out.write("  </section>\n");
+      out.write("  <!-- End Contact Section -->\n");
+      out.write("\n");
+      out.write("  <!-- Footer -->\n");
+      out.write("  <section id=\"footer\">\n");
+      out.write("    <div class=\"footer container\">\n");
+      out.write("      <div class=\"brand\">\n");
+      out.write("        <h1><span>S</span>k<span>y </span>Publishers</h1>\n");
+      out.write("      </div>\n");
+      out.write("      <h2>Votre solution adéquate</h2>\n");
+      out.write("      <div class=\"social-icon\">\n");
+      out.write("        <div class=\"social-item\">\n");
+      out.write("          <a href=\"#\"><img src=\"https://img.icons8.com/bubbles/100/000000/facebook-new.png\" /></a>\n");
+      out.write("        </div>\n");
+      out.write("        <div class=\"social-item\">\n");
+      out.write("          <a href=\"#\"><img src=\"https://img.icons8.com/bubbles/100/000000/instagram-new.png\" /></a>\n");
+      out.write("        </div>\n");
+      out.write("        <div class=\"social-item\">\n");
+      out.write("          <a href=\"#\"><img src=\"https://img.icons8.com/bubbles/100/000000/twitter.png\" /></a>\n");
+      out.write("        </div>\n");
+      out.write("        <div class=\"social-item\">\n");
+      out.write("          <a href=\"#\"><img src=\"https://img.icons8.com/bubbles/100/000000/behance.png\" /></a>\n");
+      out.write("        </div>\n");
+      out.write("      </div>\n");
+      out.write("      <p>Copyright © 2020 skypublishers. Tous Droits réservés!</p>\n");
+      out.write("    </div>\n");
+      out.write("  </section>\n");
+      out.write("  <!-- End Footer -->\n");
+      out.write("  <script src=\"./app.js\"></script>\n");
+      out.write("    </body>\n");
+      out.write("</html>\n");
+    } catch (Throwable t) {
+      if (!(t instanceof SkipPageException)){
+        out = _jspx_out;
+        if (out != null && out.getBufferSize() != 0)
+          out.clearBuffer();
+        if (_jspx_page_context != null) _jspx_page_context.handlePageException(t);
+        else throw new ServletException(t);
+      }
+    } finally {
+      _jspxFactory.releasePageContext(_jspx_page_context);
+    }
+  }
+}
